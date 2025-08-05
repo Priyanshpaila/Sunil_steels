@@ -27,35 +27,35 @@ export default function ContactPage() {
 
   const contactPersons = [
     {
-      department: "Sales & Marketing",
-      name: "Amit Sharma",
-      position: "Sales Manager",
-      phone: "+91-771-2345678",
-      email: "sales@sunilgroup.com",
+      department: "Plant Issues",
+      name: "Sachin",
+      // position: "Sales Manager",
+      phone: "+91-92293 32035",
+      // email: "sales@sunilgroup.com",
       icon: Briefcase,
     },
     {
-      department: "Logistics & Supply Chain",
-      name: "Priya Patel",
-      position: "Logistics Head",
-      phone: "+91-771-2345679",
-      email: "logistics@sunilgroup.com",
+      department: "Sales Head",
+      name: "Omprakash Nayak",
+      // position: "Logistics Head",
+      phone: "+91-9229336100",
+      // email: "logistics@sunilgroup.com",
       icon: Truck,
     },
     {
-      department: "CSR & Community",
-      name: "Ravi Kumar",
-      position: "CSR Manager",
-      phone: "+91-771-2345680",
-      email: "csr@sunilgroup.com",
+      department: "Other Commercial Matter",
+      name: "Sudhir Gupta",
+      // position: "CSR Manager",
+      phone: "+91-88788 79180",
+      // email: "csr@sunilgroup.com",
       icon: Heart,
     },
     {
-      department: "Technical Support",
-      name: "Dr. Sunita Verma",
-      position: "Technical Manager",
-      phone: "+91-771-2345681",
-      email: "technical@sunilgroup.com",
+      department: "Accounting & GST Matters",
+      name: "Praveen Chawda",
+      // position: "Accounting & GST Matters",
+      phone: "+91-91113 54300",
+      // email: "technical@sunilgroup.com",
       icon: User,
     },
   ]
@@ -244,7 +244,7 @@ export default function ContactPage() {
                   </div>
                   <CardTitle className="text-lg">{person.department}</CardTitle>
                   <CardDescription>{person.name}</CardDescription>
-                  <div className="text-sm text-gray-500">{person.position}</div>
+                  {/* <div className="text-sm text-gray-500">{person.position}</div> */}
                 </CardHeader>
                 <CardContent className="text-center space-y-2">
                   <div className="flex items-center justify-center text-sm">
@@ -253,12 +253,12 @@ export default function ContactPage() {
                       {person.phone}
                     </a>
                   </div>
-                  <div className="flex items-center justify-center text-sm">
+                  {/* <div className="flex items-center justify-center text-sm">
                     <Mail className="h-4 w-4 mr-2 text-orange-500" />
                     <a href={`mailto:${person.email}`} className="hover:text-orange-500">
                       {person.email}
                     </a>
-                  </div>
+                  </div> */}
                 </CardContent>
               </Card>
             ))}

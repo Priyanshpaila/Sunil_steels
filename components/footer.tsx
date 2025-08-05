@@ -8,13 +8,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <Factory className="h-8 w-8 text-orange-500" />
-              <div>
-                <div className="text-xl font-bold">Sunil Group</div>
-                <div className="text-sm text-gray-400">of Industries</div>
-              </div>
-            </div>
+             <Link href="/" className="flex items-center space-x-2">
+            <img src="/logo.png" alt="Sunil Group Logo" className="h-15 w-35" />
+            {/* <div className="flex flex-col">
+    <span className="text-xl font-bold text-gray-800">Sunil Group</span>
+    <span className="text-xs text-gray-600 -mt-1">of Industries</span>
+  </div> */}
+          </Link>
             <p className="text-gray-400 text-sm">
               India's trusted integrated steel manufacturer since 1983, delivering quality, strength, and
               sustainability.
@@ -73,11 +73,11 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-orange-500" />
-                <span className="text-sm text-gray-400">+91-771-XXXXXXX</span>
+                <span className="text-sm text-gray-400">+91-0771-2439058</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-orange-500" />
-                <span className="text-sm text-gray-400">info@sunilgroup.com</span>
+                <span className="text-sm text-gray-400">sunilsponge@yahoo.co.in</span>
               </div>
             </div>
           </div>
