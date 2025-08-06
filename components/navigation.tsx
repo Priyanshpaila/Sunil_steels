@@ -37,7 +37,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <img src="/logo.png" alt="Sunil Group Logo" className="h-10 w-25" />
+            <img src="/logo.png" alt="Sunil Group Logo" className="h-15 w-35" />
             {/* <div className="flex flex-col">
     <span className="text-xl font-bold text-gray-800">Sunil Group</span>
     <span className="text-xs text-gray-600 -mt-1">of Industries</span>

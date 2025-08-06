@@ -17,21 +17,21 @@ export default function SustainabilityPage() {
       description: "Training programs for youth in steel industry skills",
       beneficiaries: "2,500+",
       impact: "Youth trained and employed",
-      image: "skill development training center with students learning welding",
+      image: "/DDUGKY-2.jpg",
     },
     {
       title: "Community Healthcare",
       description: "Mobile health clinics and medical camps",
       beneficiaries: "10,000+",
       impact: "People served annually",
-      image: "mobile healthcare unit serving rural community",
+      image: "/med.jpg",
     },
     {
       title: "Education Support",
       description: "School infrastructure and scholarship programs",
       beneficiaries: "1,200+",
       impact: "Students supported",
-      image: "modern school building with children studying",
+      image: "/edusp.jpg",
     },
   ]
 
@@ -157,7 +157,7 @@ export default function SustainabilityPage() {
               <Card key={index} className="hover:shadow-xl transition-shadow">
                 <div className="relative h-48 overflow-hidden rounded-t-lg">
                   <Image
-                    src={`/placeholder.svg?height=200&width=400&query=${program.image}`}
+                    src={`${program.image}`}
                     alt={program.title}
                     fill
                     className="object-cover"

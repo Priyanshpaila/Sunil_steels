@@ -64,8 +64,8 @@ export default function ContactPage() {
     {
       name: "Head Office",
       address: "Sunil Bhawan, Ring Road No. 1, Raipur, Chhattisgarh - 492001",
-      phone: "+91-771-2345678",
-      email: "info@sunilgroup.com",
+      phone: "+91-0771-2439058",
+      email: "sunilsponge@yahoo.co.in",
       hours: "Mon-Sat: 9:00 AM - 6:00 PM",
     },
     {
@@ -196,13 +196,13 @@ export default function ContactPage() {
             {/* Interactive Map Placeholder */}
             <div>
               <h2 className="text-3xl font-bold mb-6 text-gradient">Our Locations</h2>
-              <div className="bg-gray-100 rounded-lg p-8 h-96 flex items-center justify-center mb-6">
+              {/* <div className="bg-gray-100 rounded-lg p-8 h-96 flex items-center justify-center mb-6">
                 <div className="text-center">
                   <MapPin className="h-16 w-16 text-orange-500 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold mb-2">Interactive Google Map</h3>
                   <p className="text-gray-600">Showing all our factory and office locations across Chhattisgarh</p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {locations.slice(0, 4).map((location, index) => (
@@ -274,16 +274,16 @@ export default function ContactPage() {
               <Phone className="h-12 w-12 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
               <p className="text-gray-300 mb-2">For immediate assistance</p>
-              <a href="tel:+91-771-2345678" className="text-orange-400 hover:text-orange-300 font-semibold">
-                +91-771-2345678
+              <a href="tel:+91-0771-2439058" className="text-orange-400 hover:text-orange-300 font-semibold">
+                +91-0771-2439058
               </a>
             </div>
             <div>
               <Mail className="h-12 w-12 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-300 mb-2">For detailed inquiries</p>
-              <a href="mailto:info@sunilgroup.com" className="text-orange-400 hover:text-orange-300 font-semibold">
-                info@sunilgroup.com
+              <a href="mailto:sunilsponge@yahoo.co.in" className="text-orange-400 hover:text-orange-300 font-semibold">
+                sunilsponge@yahoo.co.in
               </a>
             </div>
             <div>
