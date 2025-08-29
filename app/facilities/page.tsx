@@ -12,7 +12,7 @@ export default function FacilitiesPage() {
       capacity: "150,000 MT/Year",
       image: "/Siltara.jpeg",
       units: [
-        "Sponge Iron Plant (100 TPD)",
+        "Sponge Iron Plant (100 MT/Day)",
         "Induction Furnace (50 MT/Day)",
         "Rolling Mill (500 MT/Day)",
         "WHRB Power Plant (6 MW)",
@@ -31,7 +31,7 @@ export default function FacilitiesPage() {
       capacity: "200,000 MT/Year",
       image: "/Urla.jpeg",
       units: [
-        "Sponge Iron Plant (150 TPD)",
+        "Sponge Iron Plant (150 MT/Day)",
         "Induction Furnace (75 MT/Day)",
         "Rolling Mill (750 MT/Day)",
         "WHRB Power Plant (8 MW)",
@@ -50,7 +50,7 @@ export default function FacilitiesPage() {
       capacity: "300,000 MT/Year",
       image: "/Raigarh.png",
       units: [
-        "Sponge Iron Plant (200 TPD)",
+        "Sponge Iron Plant (200 MT/Day)",
         "Induction Furnace (100 MT/Day)",
         "Rolling Mill (1000 MT/Day)",
         "WHRB Power Plant (12 MW)",
